@@ -5,21 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROGRAMMING LANGUAGE</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: none;
+        }
+        th, td 
+        {
+            border: none;
+            padding: 8px;
+        }
+        th a 
+        {
+            color: blue; 
+            text-decoration: none;
+        }
+        tfoot 
+        {
+            background-color: #0000FF;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <h1 style="text-align:center ;">PROGRAMMING LANGUAGE</h1>
-    <table border="1";width=100%>
-        <tr>
-            <td>item01</td>
-            <td>item01</td>
-        </tr>
-        <tbody>
+    <table border="1";width=100% ;style="border-collapse: collapse;">
+        <thead style="text-align: center;background-color: lightgray;">
             <tr>
-                <td><img width="100" src="images/Python.jpg" alt="PYTHON"></td>
+                <th colspan="2">
+                    <a href="#">Python</a>
+                    <a href="#">Java</a>
+                    <a href="#">C#</a>
+                    <a href="#">C++</a>
+                </th>
+            </tr>
+        </thead>
+        <tfoot style="text-align: center;background-color: blue;color: white;">
+            <tr>
+                <td colspan="2">
+                    Programming Language &copy; 2024
+                </td>
+            </tr>
+        </tfoot>
+        <tbody style="background-color: lightgray;">
+            <tr>
+                <td><img width="100" src="images/Python.jpg" alt="PYTHON" style="background-color: lightgray;"></td>
                 <td>
                     Python is an easy to learn, powerful programming language. It has efficient high-level
                     data structures and a simple but effective approach to object-oriented programming.
-                    Python’s elegant syntax and dynamic typing, together with its interpreted nature,
+                    Python's elegant syntax and dynamic typing, together with its interpreted nature,
                     make it an ideal language for scripting and rapid application development in many
                     areas on most platforms.
                 </td>
@@ -33,7 +68,7 @@
                 </td>
             </tr>
             <tr>
-                <td><img width="200" src="images/C#.png" alt="C SHARP"></td>
+                <td><img width="100" src="images/C sharp.png" alt="C SHARP"></td>
                 <td>
                     C# is a modern, general-purpose, object-oriented programming language developed
                     by Microsoft and approved by European Computer Manufacturers Association
@@ -49,10 +84,6 @@
                 </td>
             </tr>
         </tbody>
-        <tr>
-            <td>item01</td>
-            <td>item01</td>
-        </tr>
     </table>
 </body>
 </html>
