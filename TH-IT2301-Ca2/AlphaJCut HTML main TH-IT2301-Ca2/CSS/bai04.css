@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background-image: url(../images/Background.avif);
+    padding: 0.5rem;
+}
+header img{
+    width: 120px;
+}
+.ads>div{
+    width: 180px;
+    height: 120px;
+    border: 1px dashed darkblue;
+    margin: 3px;
+    text-align: center;
+    background-color: aqua;
+    line-height: 120px;
+}
+header input[type=text]{
+    padding: 5px;
+}
